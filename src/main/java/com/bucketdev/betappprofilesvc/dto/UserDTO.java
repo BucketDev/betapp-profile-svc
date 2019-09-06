@@ -1,0 +1,22 @@
+package com.bucketdev.betappprofilesvc.dto;
+
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.io.Serializable;
+
+/**
+ * @author rodrigo.loyola
+ */
+@Data
+public class UserDTO implements Serializable {
+
+    private long id;
+    private String uid;
+    private String email;
+    private String displayName;
+    private String photoUrl;
+    private String provider;
+
+}
