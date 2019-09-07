@@ -1,8 +1,0 @@
-/home/UNOSQUARE/rodrigo.loyola/Documents/BucketDev/BetAppv2/betapp-profile-svc/src/main/java/com/bucketdev/betappprofilesvc/endpoint/UserController.java
-/home/UNOSQUARE/rodrigo.loyola/Documents/BucketDev/BetAppv2/betapp-profile-svc/src/main/java/com/bucketdev/betappprofilesvc/exception/user/UserNotFoundException.java
-/home/UNOSQUARE/rodrigo.loyola/Documents/BucketDev/BetAppv2/betapp-profile-svc/src/main/java/com/bucketdev/betappprofilesvc/dto/UserDTO.java
-/home/UNOSQUARE/rodrigo.loyola/Documents/BucketDev/BetAppv2/betapp-profile-svc/src/main/java/com/bucketdev/betappprofilesvc/BetappProfileSvcApplication.java
-/home/UNOSQUARE/rodrigo.loyola/Documents/BucketDev/BetAppv2/betapp-profile-svc/src/main/java/com/bucketdev/betappprofilesvc/service/UserService.java
-/home/UNOSQUARE/rodrigo.loyola/Documents/BucketDev/BetAppv2/betapp-profile-svc/src/main/java/com/bucketdev/betappprofilesvc/service/impl/UserServiceImpl.java
-/home/UNOSQUARE/rodrigo.loyola/Documents/BucketDev/BetAppv2/betapp-profile-svc/src/main/java/com/bucketdev/betappprofilesvc/repository/UserRepository.java
-/home/UNOSQUARE/rodrigo.loyola/Documents/BucketDev/BetAppv2/betapp-profile-svc/src/main/java/com/bucketdev/betappprofilesvc/domain/User.java
