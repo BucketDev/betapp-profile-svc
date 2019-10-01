@@ -26,7 +26,7 @@ public class UserServiceImpl implements UserService {
         User user = new User();
         if(dto.getId() > 0) {
             Optional<User> userOptional = repository.findById(dto.getId());
-            if(userOptional.isEmpty())
+            if(!userOptional.isPresent())
                 throw new UserNotFoundException("id: " + dto.getId());
             user = userOptional.get();
         }
