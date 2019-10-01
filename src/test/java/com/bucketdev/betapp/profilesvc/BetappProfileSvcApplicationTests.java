@@ -1,4 +1,4 @@
-package com.bucketdev.betappprofilesvc;
+package com.bucketdev.betapp.profilesvc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,6 @@
-package com.bucketdev.betappprofilesvc.domain;
+package com.bucketdev.betapp.profilesvc.domain;
 
-import com.bucketdev.betappprofilesvc.dto.UserDTO;
+import com.bucketdev.betapp.profilesvc.dto.UserDTO;
 import lombok.Data;
 
 import javax.persistence.*;

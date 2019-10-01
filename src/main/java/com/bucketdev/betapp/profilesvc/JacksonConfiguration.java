@@ -1,4 +1,4 @@
-package com.bucketdev.betappprofilesvc;
+package com.bucketdev.betapp.profilesvc;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;

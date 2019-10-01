@@ -1,4 +1,4 @@
-package com.bucketdev.betappprofilesvc;
+package com.bucketdev.betapp.profilesvc;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

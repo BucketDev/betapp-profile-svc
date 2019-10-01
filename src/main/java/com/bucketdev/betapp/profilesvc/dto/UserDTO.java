@@ -1,8 +1,6 @@
-package com.bucketdev.betappprofilesvc.dto;
+package com.bucketdev.betapp.profilesvc.dto;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.io.Serializable;
 

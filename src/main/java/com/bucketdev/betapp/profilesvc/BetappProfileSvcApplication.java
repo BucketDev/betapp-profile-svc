@@ -1,4 +1,4 @@
-package com.bucketdev.betappprofilesvc;
+package com.bucketdev.betapp.profilesvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

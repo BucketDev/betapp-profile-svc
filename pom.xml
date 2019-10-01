@@ -8,10 +8,10 @@
 		<version>2.1.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bucketdev</groupId>
-	<artifactId>betapp-profile-svc</artifactId>
+	<groupId>com.bucketdev.betapp</groupId>
+	<artifactId>profile-svc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>betapp-profile-svc</name>
+	<name>profile-svc</name>
 	<description>Microservice to manage the profile updates and user creation</description>
 
 	<properties>
@@ -91,6 +91,15 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

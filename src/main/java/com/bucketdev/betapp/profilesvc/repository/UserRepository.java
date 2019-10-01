@@ -1,6 +1,6 @@
-package com.bucketdev.betappprofilesvc.repository;
+package com.bucketdev.betapp.profilesvc.repository;
 
-import com.bucketdev.betappprofilesvc.domain.User;
+import com.bucketdev.betapp.profilesvc.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

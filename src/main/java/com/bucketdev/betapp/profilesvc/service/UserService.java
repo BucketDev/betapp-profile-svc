@@ -1,6 +1,6 @@
-package com.bucketdev.betappprofilesvc.service;
+package com.bucketdev.betapp.profilesvc.service;
 
-import com.bucketdev.betappprofilesvc.dto.UserDTO;
+import com.bucketdev.betapp.profilesvc.dto.UserDTO;
 
 import java.util.Set;
 

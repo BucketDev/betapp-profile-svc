@@ -1,7 +1,7 @@
-package com.bucketdev.betappprofilesvc.endpoint;
+package com.bucketdev.betapp.profilesvc.endpoint;
 
-import com.bucketdev.betappprofilesvc.dto.UserDTO;
-import com.bucketdev.betappprofilesvc.service.UserService;
+import com.bucketdev.betapp.profilesvc.dto.UserDTO;
+import com.bucketdev.betapp.profilesvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

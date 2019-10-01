@@ -5,7 +5,7 @@ spring:
     name: betapp-profile-svc
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: ${betapp-profile-svc.config.hostname}:${betapp-profile-svc.config.port}
   profiles:
     active: production
   datasource:

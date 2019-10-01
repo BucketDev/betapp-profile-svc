@@ -1,10 +1,10 @@
-package com.bucketdev.betappprofilesvc.service.impl;
+package com.bucketdev.betapp.profilesvc.service.impl;
 
-import com.bucketdev.betappprofilesvc.domain.User;
-import com.bucketdev.betappprofilesvc.dto.UserDTO;
-import com.bucketdev.betappprofilesvc.exception.user.UserNotFoundException;
-import com.bucketdev.betappprofilesvc.repository.UserRepository;
-import com.bucketdev.betappprofilesvc.service.UserService;
+import com.bucketdev.betapp.profilesvc.domain.User;
+import com.bucketdev.betapp.profilesvc.dto.UserDTO;
+import com.bucketdev.betapp.profilesvc.exception.user.UserNotFoundException;
+import com.bucketdev.betapp.profilesvc.repository.UserRepository;
+import com.bucketdev.betapp.profilesvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
