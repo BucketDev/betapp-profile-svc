@@ -1,17 +1,17 @@
 server:
-  port: 8400
+  port: ${betapp-profile-svc.port:8400}
 spring:
   application:
     name: betapp-profile-svc
   cloud:
     config:
-      uri: ${betapp-profile-svc.config.hostname}:${betapp-profile-svc.config.port}
+      uri: https://betapp-config-server.herokuapp.com
   profiles:
     active: production
   datasource:
-    url: jdbc:mysql://${betapp-profile-svc.hostname}:${betapp-profile-svc.port}/${betapp-profile-svc.dbName}?useLegacyDatetimeCode=false&autoReconnect=true
-    username: ${betapp-profile-svc.username}
-    password: ${betapp-profile-svc.password}
+    url: jdbc:mysql://${betapp-profile-svc.database.hostname}:${betapp-profile-svc.database.port}/${betapp-profile-svc.database.dbName}?useLegacyDatetimeCode=false&autoReconnect=true
+    username: ${betapp-profile-svc.database.username}
+    password: ${betapp-profile-svc.database.password}
   jpa:
     properties:
       hibernate:
@@ -22,4 +22,4 @@ spring:
 eureka:
   client:
     service-url:
-      default-zone: http://localhost:8761
+      default-zone: ${betapp-profile-svc.eureka.hostname}:${betapp-profile-svc.eureka.port}
