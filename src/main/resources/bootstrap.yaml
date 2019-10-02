@@ -21,5 +21,7 @@ spring:
       ddl-auto: update
 eureka:
   client:
+    registerWithEureka: true
+    fetchRegistry: true
     service-url:
       default-zone: ${betapp-profile-svc.eureka.hostname}:${betapp-profile-svc.eureka.port}
